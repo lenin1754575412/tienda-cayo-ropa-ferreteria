@@ -38,3 +38,16 @@ src/app/marcas/page-backup-*.tsx*.mongodb-backup
 /.env*
 
 !/.env.example
+
+# Archivos locales
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+backup-*/
+*.bak-*
